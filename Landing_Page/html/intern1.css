@@ -1,0 +1,319 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.Home{
+    width:100%;
+    height:100vh;
+    background:url(./images/bdforint.jpg);
+    background-size:cover;
+    font-family: cursive;
+    /* display:flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.Contact{
+    /* transition: 2s all ease-in-out; */
+    width:100%;
+    height:100vh;
+    background:url(./images/contactbg.avif);
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+    /* background-color: #fff; */
+}
+
+.Hill_Station{
+    width:100%;
+    height:100vh;
+    background:url(./images/hillstation\ bg.jpg);
+    background-size: cover;
+    /* background:url(./buildings.avif);
+    background-size:auto;     */
+    display:flex;  
+  }
+nav{
+    width:100%;
+    height:100px;
+    color:whitesmoke;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.logo{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color:red;
+    font-style: bold;
+}
+
+.menu a{
+    text-decoration: none;
+    color:white;
+    padding:10px 30px;
+    font-size: 20px;
+    transition:0.3s;
+}
+.ragister a{
+    text-decoration:none;
+    color:white;
+    padding:10px 20px;
+    font-size: 20px;
+    background: indianred;
+    border-radius: 10px;
+    transition:0.4s;
+}
+.item{
+    max-width: 650px;
+    position:absolute;
+    top:50%;
+    left:50%; 
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+.item span{
+    letter-spacing:5px ;
+}
+.item h1{
+    font-size: 3em;
+}
+.item a{
+    text-decoration: none;
+    background: indianred;
+    color:white;
+    padding:10px 20px;
+    letter-spacing: 5px;
+    transition:0.4s;
+}
+.item a:hover{
+    background-color: transparent;
+    font-size:x-large;
+    border:1px solid indianred;
+}
+.menu a:hover{
+    font-size:x-large;
+    color:darkred;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ragister a:hover{
+    background-color: transparent;
+    border:1px solid indianred;
+}
+
+.Contact{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid black 2px; */
+    flex-direction: column;
+}
+#h1{
+    align-items: top;
+    justify-content:start;
+    color:red;
+}
+.info{
+    border:solid black 3px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: x-large;
+    height:50%;
+    width:50%;
+    padding:65px 220px;
+    color:black;
+}
+
+.contact_us{
+    border-radius: 10px;
+    padding:2px;
+    background-color: #e65100 ;
+}
+.one{
+    background-color: #e65100;
+    height: 85%;
+    width:25%;
+    margin:50px 70px;
+    transition :all 0.6s linear 0;
+    border:4px solid black;
+    box-shadow: -15px 15px 40px blueviolet;
+}
+.one:hover{
+   /* transition :all 0.6s linear 0;
+    border:2px dark red; */
+    transform: scale(1.1);
+}
+
+.two{
+    background-color: #e65100;
+    height: 85%;
+    width:25%;
+    margin:50px 70px;
+    transition : all 0.6s linear 0 ;
+    border:4px solid black;
+    box-shadow: -15px 15px 40px blueviolet;
+}
+
+.two:hover{
+    transform: scale(1.1);
+}
+.three{
+    background-color: #e65100;
+    height: 85%;
+    width:25%;
+    margin:50px 70px;
+    transition : all 0.6s linear 0 ;
+    border:4px solid black;
+    box-shadow: -15px 15px 40px blueviolet;
+}
+
+.three:hover{
+    transform: scale(1.1);
+}
+.oneA{
+    background-color:white;
+    height: 50%;
+    width:100%;
+    background:url(./images/darjling3.avif);
+    background-size:cover;  
+    margin:0px 0px; 
+    
+}
+.oneB{
+    background-color:#e91e63;
+    height: 50%;
+    width:100%;
+    margin:0px 0px; 
+    display:flex;
+}
+.twoA{
+    background-color:white;
+    height: 50%;
+    width:100%;
+    background:url(./images/Darjeeling.avif);
+    background-size:cover;
+    margin:0px 0px;  
+}
+.twoB{
+    background-color:#e91e63 ;;
+    height: 50%;
+    width:100%;
+    margin:0px 0px; 
+}
+.threeA{
+    background-color:white;
+    height: 50%;
+    width:100%;
+    background:url(./images/darjling2.avif);
+    background-size:cover;
+    margin:0px 0px; 
+}
+.threeB{
+    background-color:#e91e63 ;
+    height: 50%;
+    width:100%;
+    margin:0px 0px; 
+}
+.oneB ul h1{
+    padding:10px 85px;
+}
+.twoB ul h1{
+    padding:10px 85px;
+}
+.threeB ul h1{
+    padding:10px 85px;
+}
+
+.offer{
+    height: 100vh;
+    width: 100%;
+    background-color:salmon;
+    display: flex;
+    background:url(./images/coverDisct.jpg);
+    background-size: cover;
+    color:blue
+}
+.site{
+    height: 100vh;
+    width: 100%;
+    background-color:salmon;
+    display: flex;
+}
+.off1{
+    height:30%;
+    width:30%;
+    background-color: blue;
+    margin:60px 30px;
+    transition :all 0.6s linear 0;
+    background:url(./images/dist3.webp);
+    background-size: cover;
+    box-shadow: 10px 12px 40px blueviolet;
+ }
+ .off2{
+    height:30%;
+    width:30%;
+    background-color: blue;
+    margin:220px 30px;
+    background:url(./images/discount\ 1.webp);
+    background-size: cover;
+    transition :all 0.6s linear 0;
+    box-shadow: -10px 12px 40px blueviolet;
+ }
+ .off3{
+    height:30%;
+    width:30%;
+    background-color: blue;
+    margin:380px 30px;
+    background:url(./images/disct\ 2.webp);
+    background-size: cover;
+    transition :all 0.6s linear 0;
+    box-shadow: -10px 12px 40px blueviolet;
+ }
+ .off1:hover{
+    transform: scale(1.1);
+ }
+
+ .off2:hover{
+    transform: scale(1.1);
+ }
+
+ .off3:hover{
+    transform: scale(1.1);
+ }
+.footer{
+   
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color:blue
+}
+
+.footer h1{
+    margin:50px 10px;
+    padding:10px;
+    color:red;
+
+}
+.footer h2{
+    margin:50px 30px;
+    padding:10px;
+}
+.dt{
+    margin:60px 20px;
+    padding:10px 60px;
+    color:whitesmoke;
+    }
+.dt a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+@media(min-width:500px) and (max-width:600px){
+   .home{
+    color:whitesmoke;
+   }
+}
